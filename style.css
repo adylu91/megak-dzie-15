@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  padding: 3em;
+}
+
+div {
+  display: inline-block;
+  border: 2px solid;
+  text-align: center;
+}
+
+h1 {
+  margin: 0.2em;
+  color: brown;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.2em;
+  margin: 0.2em;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+}
+
+p {
+  font-size: 1.1em;
+  margin: 0.2em;
+}
+
+p span {
+  color: green;
+  font-weight: bold;
+}
